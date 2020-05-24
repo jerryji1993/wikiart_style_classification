@@ -110,7 +110,7 @@ def get_args():
     parser.add_argument("--subset", type = int, default = 1000000, help = 'Length of generator')
     # parser.add_argument("--add_FC", type = bool, default = False, help = 'Add fully connected layer before softmax for obtaining features?')
     parser.add_argument("--add_FC", action='store_true', help = 'Add fully connected layer before softmax for obtaining features?')
-    parser.add_argument("--n_threads", type = int, default = 6, help = 'Number of threads')
+    parser.add_argument("--n_threads", type = int, default = 1, help = 'Number of threads')
     args = parser.parse_args()
     return args
 
