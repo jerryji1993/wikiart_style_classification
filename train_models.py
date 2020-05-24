@@ -17,7 +17,7 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 ###### preinitialize globals, change according to command-line args
 INPUT_DIR = './'
 OUTPUT_DIR = './'
-MODEL_NAME = 'InceptionV3' # default is InceptionV3
+MODEL_NAME = None # default is InceptionV3
 FULL_NAME = None
 MODEL_TYPE = None # initialize to be None
 # Image Size
