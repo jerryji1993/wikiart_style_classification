@@ -40,3 +40,4 @@ Choices of CNN architectures:
 * NASNet (Large)
 
 ### Grad-CAM visualzation
+We also implemented Grad-CAM for direct visualzation of where the model is paying attention to when making classification decision.
