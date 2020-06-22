@@ -39,5 +39,5 @@ Choices of CNN architectures:
 * EfficientNet (B7)
 * NASNet (Large)
 
-### Grad-CAM visualzation
-We also implemented Grad-CAM for direct visualzation of where the model is paying attention to when making classification decision.
+### Grad-CAM visualization
+We also implemented Grad-CAM for direct visualzation of where the model is paying attention to when making classification decision. Once the model is trained, one can run ```python vis_cam.py``` for generation of class activation maps. 
