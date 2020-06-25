@@ -40,4 +40,4 @@ Choices of CNN architectures:
 * NASNet (Large)
 
 ### Grad-CAM visualization
-We also implemented Grad-CAM for direct visualzation of where the model is paying attention to when making classification decision. Once the model is trained, one can run ```python vis_cam.py``` for generation of class activation maps. 
+We also implemented Grad-CAM for direct visualzation of where the model is paying attention to when making classification decision. Once the model is trained, one can run ```python vis_cam.py``` for generation of class activation maps. Table below lists some arguments to specify for generating the maps:
